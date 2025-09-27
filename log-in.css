@@ -1,0 +1,21 @@
+.empresa-logo {
+  max-width: 150px;
+  margin: auto;
+  display: block;
+}
+
+.empresa-nombre {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

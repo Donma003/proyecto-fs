@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio de Sesión</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><span class="text-primary">Lautareke</span>Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbar-start" aria-controls="navbar-start"
+              aria-expanded="false" aria-label="Toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-start">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="datos-curiosos.html">Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="sing-up.html">Crear Cuenta</a></li>
+          <li class="nav-item"><a class="nav-link active" href="login.html">Iniciar Sesión</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="carrito.html">
+              <i class="bi bi-cart-fill" style="font-size: 1.2rem;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="login-box mt-3 mb-5">
+    <h4 class="text-center mb-4">Inicio de sesión</h4>
+    <form id="loginForm">
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo</label>
+        <input type="email" class="form-control" id="correo" required>
+      </div>
+      <div class="mb-3">
+        <label for="contrasena" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="contrasena" required>
+      </div>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+      </div>
+      <div class="text-center mt-3">
+        <a href="registro.html">¿No tienes cuenta? Regístrate aquí</a>
+      </div>
+    </form>
+  </section>
+
+  <script src="js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
